@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    background-color: black;
+    color: white;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.home {
+    align-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.img-id {
+    border-radius: 50%;
+    height: 30px;
+    position: relative;
+    bottom : 6.9px;
+    right: 4.4px;
+}
+.id{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 15px;
+    border-radius: 25px;
+    color: black;
+    width: 150px;
+    align-content: center;
+    display:flex;
+    /* justify-content: /; */
+
+}
+.home-icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.screen {
+    display: flex;
+    height : 92vh;
+}
+.sidebar {
+    gap: 3px;
+    /* padding : 20px;  */
+    width : 20vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.new-item-box {
+    background-color: rgb(36,36,36);
+    display: flex;
+    height : 11vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.newitems {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+    /* width : 0px; */
+    padding: 15px;
+    height : 20px;
+    width: 180px;
+    background-color: white;
+}
+.app-icon {
+    height: 15px;
+    width : 15px;
+    color : white;
+}
+.dashboard {
+    padding-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center ; */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    background-color: rgb(36,36,36);
+    display : flex;
+    color: white; 
+}
+.dashboard-w {
+    display: flex;  
+    gap: 9px;
+    align-items: center;
+    padding-left: 20px;
+}
+.Commerce {
+    padding-top: 13px;
+    padding-left: 45px;
+}
+.Analytics {
+    padding-left: 45px;
+}
+.Crypto {
+    padding-left: 45px;
+}
+.Helpdesk {
+    padding-left: 45px;
+}
+.Monitoring {
+    padding-left: 45px;
+}
+.Fitness {
+    padding-left: 45px;
+}
+.application {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 20px;
+    color: white;
+    gap: 9px;
+    height: 8vh;
+    background-color: rgb(36,36,36);
+}
+.elements {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 20px;
+    color: white;
+    gap: 9px;
+    height: 8vh;
+    background-color: rgb(36,36,36);
+}
+
+.greet {
+    font-size: 35px;
+}
+.dp {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.descr {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.user {
+    font-size: 25px;
+}
+.main-screen {
+    background-color: rgb(220,220,220);
+    height: 92vh;
+    width : 80vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.main-screen-upper {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.main-screen-bottom {
+    position: relative;
+    left: 15px;
+    background-color: white;
+    height: 100vh;
+    width: 78vw;
+}
+.error {
+    background-color:#f4e2e2;
+    border-radius: 3px;
+    border:1px solid red ;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 36px;
+    height: 40px;
+    color: rgb(232, 104, 104);
+    width: 71vw;
+}
+
+.info-image {
+    padding-right: 15px;
+    height: 25px;
+    width: 25px;
+}
+.table-content {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 73vw;
+    margin-left: 36px;
+}
+.table-content thead tr {
+    background-color: rgb(207, 207, 207);
+    text-align: left;
+    font-size: 18px;
+}
+.table-content th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.del {
+    background-color: rgb(224, 113, 22);
+    color: white;
+    height : 20px;
+    width : 80px;
+}
+.edit {
+    background-color: blue;
+    
+    color : white;
+    height : 20px;
+    width : 60px;
+}
+.save-img {
+    height: 12px;
+    width : 12px;
+    border-radius: 30%;
+}
+.up-arrow {
+    color: white;
+    height : 15px;
+    width : 15px;
+    border-radius: 50%;
+}

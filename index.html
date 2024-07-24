@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="home">
+            <p>
+                <i class="bi bi-house"></i>
+            </p>
+            <img class = "home-icon" src="https://i.pinimg.com/736x/b3/cc/d5/b3ccd57b054a73af1a0d281265b54ec8.jpg" alt="">
+            <p style="color: white; position: relative; top: 3px; margin-left: 9px;">Home</p>
+        </div>
+        <div class="id">
+            <img class="img-id"
+                src="data:image/jpeg;base64,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"
+                alt="">
+            <p style="position: relative; bottom: 2px;">Izamul Haque</p>
+        </div>
+    </div>
+    <div class="screen">
+        <div class="sidebar">
+            <div class="new-item-box">
+                <div class="newitems">
+                    <p style="padding-right: 12px; font-size: 30px;">+</p>
+
+                    <p style="font-size: 23px;"> <b>New Item</b></p>
+                </div>
+            </div>
+            <div class="dashboard">
+                <div class="dashboard-w">
+                    <img class = "app-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uW3hVzorxq8pk44s5wB0zdwp3KfQPhRSTQ&s" alt="">
+                    Dashboard
+                    <img class = "up-arrow" src="upload.png" alt="">
+                </div>
+                <div class="Commerce">Commerce</div>
+                <div class="Analytics">Analytics</div>
+                <div class="Crypto">Crypto</div>
+                <div class="Helpdesk">Helpdesk</div>
+                <div class="Monitoring">Monitoring</div>
+                <div class="Fitness">Fitness</div>
+            </div>
+            <div class="application">
+                <img class = "app-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uW3hVzorxq8pk44s5wB0zdwp3KfQPhRSTQ&s" alt="">
+                Application
+            </div>
+            <div class="elements">
+                <img class = "app-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uW3hVzorxq8pk44s5wB0zdwp3KfQPhRSTQ&s" alt="">
+                Elements
+            </div>
+        </div>
+        <div class="main-screen">
+            <div class="main-screen-upper" style="background-color:white ;">
+                <div class="greet">Welcome</div>
+                <div class="descr">
+                    <img class="dp"
+                        src="https://www.shutterstock.com/image-photo/profile-picture-smiling-successful-young-260nw-2040223583.jpg"
+                        alt="">
+                    <div class="user">Username</div>
+                </div>
+            </div>
+            <div class="main-screen-bottom">
+                <p style="padding-left: 35px; padding-top: 15px; font-size: 20px;"><b>Form Title</b></p>
+                <p style="padding-left: 35px; color: darkgray;">Lorem ipsum dolor sit amet quia quam. Dolores nam recusandae ipsa vero necessitatibus facilis ad ipsum in assumenda officiis?</p>
+                <div class="error">
+                    <img class = "info-image" src="info.png" alt="">
+                    This is an error message
+                </div>
+                <table class = "table-content">
+                    <thead>
+                        <tr>
+                            <th>FullName</th>
+                            <th>Username</th>
+                            <th>User Email</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="name1">FullName1</td>
+                            <td id="usname1">username1</td>
+                            <td id="email1">email1</td>
+                            <td>
+                                <button id = "edit1" class = "edit">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Edit
+                                </button>
+                                <button id = "del1" class = "del">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="name2">FullName1</td>
+                            <td id="usname2">username1</td>
+                            <td id="email2">email1</td>
+                            <td>
+                                <button id = "edit2" class = "edit">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Edit
+                                </button>
+                                <button id = "del2"  class = "del">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="name3">FullName1</td>
+                            <td id="usname3">username1</td>
+                            <td id="email3">email1</td>
+                            <td>
+                                <button id = "edit3" class = "edit">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Edit
+                                </button>
+                                <button id = "del3" class = "del">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="name4">FullName1</td>
+                            <td id="usname4">username1</td>
+                            <td id="email4">email1</td>
+                            <td >
+                                <button id="edit4" class = "edit">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Edit
+                                </button>
+                                <button id = "del4" class = "del">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="name5">FullName1</td>
+                            <td id="usname5">username1</td>
+                            <td id="email5">email1</td>
+                            <td>
+                                <button id = "edit5" class = "edit">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Edit
+                                </button>
+                                <button id="del5" class = "del">
+                                    <img class = "save-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NDtiEZQgzo2LT4nPyW9FePN9xfqacB2tKA&s" alt="">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
